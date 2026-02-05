@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pulse UI — Sample Frontend</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">
+          <span class="logo-mark">◆</span>
+          <span>Pulse UI</span>
+        </div>
+        <div class="nav-actions">
+          <button class="ghost" id="theme-toggle" type="button">Toggle theme</button>
+          <button class="primary" type="button">Get started</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Product analytics, simplified</p>
+          <h1>Build confident product decisions with live insights.</h1>
+          <p class="subhead">
+            Pulse UI is a lightweight analytics dashboard for teams that want
+            clarity, speed, and delightful user experiences.
+          </p>
+          <div class="hero-cta">
+            <button class="primary" type="button">Start free trial</button>
+            <button class="ghost" type="button">Book demo</button>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <h3 data-counter="320">0</h3>
+              <p>Teams onboarded</p>
+            </div>
+            <div class="metric">
+              <h3 data-counter="48">0</h3>
+              <p>Hours saved weekly</p>
+            </div>
+            <div class="metric">
+              <h3 data-counter="99">0</h3>
+              <p>Uptime guarantee</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-header">
+            <h2>Weekly snapshot</h2>
+            <p>Last updated 5 minutes ago</p>
+          </div>
+          <div class="card-body">
+            <div class="progress">
+              <div>
+                <span>Activation rate</span>
+                <strong>82%</strong>
+              </div>
+              <div class="progress-bar">
+                <span style="width: 82%"></span>
+              </div>
+            </div>
+            <div class="progress">
+              <div>
+                <span>Retention</span>
+                <strong>74%</strong>
+              </div>
+              <div class="progress-bar">
+                <span style="width: 74%"></span>
+              </div>
+            </div>
+            <div class="progress">
+              <div>
+                <span>Conversion</span>
+                <strong>19%</strong>
+              </div>
+              <div class="progress-bar">
+                <span style="width: 19%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2>Everything your team needs in one view</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Smart segments</h3>
+            <p>Group users by behavior, lifecycle stage, or experiments.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Real-time alerts</h3>
+            <p>Stay ahead with automated anomaly detection and alerts.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Journey maps</h3>
+            <p>Visualize flows and remove friction in critical paths.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Team-ready</h3>
+            <p>Share reports instantly with stakeholders and execs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div>
+          <h2>Get the product playbook</h2>
+          <p>
+            Join 10,000+ product leaders receiving monthly insights on growth,
+            retention, and product analytics.
+          </p>
+        </div>
+        <form id="newsletter-form" novalidate>
+          <label>
+            Work email
+            <input type="email" name="email" placeholder="you@company.com" required />
+          </label>
+          <button class="primary" type="submit">Join newsletter</button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2024 Pulse UI. Built as a demo frontend application.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
