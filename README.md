@@ -7,14 +7,7 @@ A tiny, dependency-free frontend sample that showcases a responsive layout, them
 Open `index.html` directly in a browser, or run a quick local server:
 
 ```bash
-python -m http.server 8080 --bind 0.0.0.0
-```
 
-Then visit <http://localhost:8080>. If you prefer, you can use the helper script:
-
-```bash
-./scripts/serve.sh
-```
 
 ## Features
 
